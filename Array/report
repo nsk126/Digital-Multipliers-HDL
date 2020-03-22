@@ -1,0 +1,102 @@
+Setup views included:
+ Worst 
+
++--------------------+---------+---------+
+|     Setup mode     |   all   | default |
++--------------------+---------+---------+
+|           WNS (ns):|  0.000  |  0.000  |
+|           TNS (ns):|  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |
+|          All Paths:|    0    |    0    |
++--------------------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 69.434%
+Routing Overflow: 0.00% H and 0.00% V
+------------------------------------------------------------
+Reported timing to dir timingReports
+Total CPU time: 0.33 sec
+Total Real time: 1.0 sec
+Total Memory Usage: 1134.027344 Mbytes
+
+
+
+
+
+
+
+innovus 4> report_area
+Depth  Name     #Inst  Area (um^2) 
+-----------------------------------
+0      Array    28     278.5392    
+1      FA_a2    1      19.6794     
+1      HA_a3    1      12.1104     
+1      FA_a7    1      19.6794     
+1      FA_a4    1      19.6794     
+1      FA_a1    1      19.6794     
+1      HA_a1    1      12.1104     
+1      HA_a2    1      12.1104     
+1      FA_a6    1      19.6794     
+1      FA_a3    1      19.6794     
+1      HA_a4    1      12.1104     
+1      FA_a8    1      19.6794     
+1      FA_a5    1      19.6794   
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.00419511 	   55.7444%
+Total Switching Power:       0.00187462 	   24.9098%
+Total Leakage Power:         0.00145589 	   19.3458%
+Total Power:                 0.00752561
+-----------------------------------------------------------------------------------------
+
+
+Group                           Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+Sequential                             0           0           0           0           0
+Macro                                  0           0           0           0           0
+IO                                     0           0           0           0           0
+Combinational                   0.004195    0.001875    0.001456    0.007526         100
+Clock (Combinational)                  0           0           0           0           0
+Clock (Sequential)                     0           0           0           0           0
+-----------------------------------------------------------------------------------------
+Total                           0.004195    0.001875    0.001456    0.007526         100
+-----------------------------------------------------------------------------------------
+
+
+Rail                  Voltage   Internal   Switching     Leakage       Total  Percentage 
+                                Power      Power         Power         Power  (%)        
+-----------------------------------------------------------------------------------------
+VDD                       0.9   0.004195    0.001875    0.001456    0.007526         100
+ 
+ 
+-----------------------------------------------------------------------------------------
+*	Power Distribution Summary: 
+* 		Highest Average Power:                  FA_a7/g2 (ADDFX1): 	 0.0005535
+* 		Highest Leakage Power:                 HA_a4/g18 (ADDHXL): 	 8.696e-05
+* 		Total Cap: 	2.19944e-13 F
+* 		Total instances in design:    28
+* 		Total instances in design with no power:     0
+*                Total instances in design with no activty:     0
+
+* 		Total Fillers and Decap:     0
+-----------------------------------------------------------------------------------------
+ 
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total)=910.25MB/910.25MB)
+
+
+

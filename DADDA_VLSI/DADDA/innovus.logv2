@@ -1,0 +1,46 @@
+[05/02 22:55:30      0s] 
+[05/02 22:55:30      0s] Cadence Innovus(TM) Implementation System.
+[05/02 22:55:30      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[05/02 22:55:30      0s] 
+[05/02 22:55:30      0s] Version:	v17.13-s098_1, built Thu Feb 8 11:26:22 PST 2018
+[05/02 22:55:30      0s] Options:	
+[05/02 22:55:30      0s] Date:		Thu May  2 22:55:30 2019
+[05/02 22:55:30      0s] Host:		cadence (x86_64 w/Linux 2.6.32-696.el6.x86_64) (4cores*4cpus*Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz 6144KB)
+[05/02 22:55:30      0s] OS:		Red Hat Enterprise Linux Server release 6.9 (Santiago)
+[05/02 22:55:30      0s] 
+[05/02 22:55:30      0s] License:
+[05/02 22:55:30      0s] 		invs	Innovus Implementation System	17.1	Denied
+[05/02 22:55:30      0s] 		invsb	Innovus Implementation System Basic	17.1	Denied
+[05/02 22:55:30      0s] 		fexl	First Encounter XL	17.1	Denied
+[05/02 22:55:30      0s] 		vdixl	Virtuoso Digital Implementation XL	17.1	checkout succeeded
+[05/02 22:55:30      0s] 		Maximum number of instances allowed (1 x 50000).
+[05/02 22:55:38      7s] @(#)CDS: Innovus v17.13-s098_1 (64bit) 02/08/2018 11:26 (Linux 2.6.18-194.el5)
+[05/02 22:55:38      7s] @(#)CDS: NanoRoute 17.13-s098_1 NR180117-1602/17_13-UB (database version 2.30, 414.7.1) {superthreading v1.44}
+[05/02 22:55:38      7s] @(#)CDS: AAE 17.13-s036 (64bit) 02/08/2018 (Linux 2.6.18-194.el5)
+[05/02 22:55:38      7s] @(#)CDS: CTE 17.13-s031_1 () Feb  1 2018 09:16:44 ( )
+[05/02 22:55:38      7s] @(#)CDS: SYNTECH 17.13-s011_1 () Jan 14 2018 01:24:42 ( )
+[05/02 22:55:38      7s] @(#)CDS: CPE v17.13-s062
+[05/02 22:55:38      7s] @(#)CDS: IQRC/TQRC 16.1.1-s220 (64bit) Fri Aug  4 09:53:48 PDT 2017 (Linux 2.6.18-194.el5)
+[05/02 22:55:38      7s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[05/02 22:55:38      7s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[05/02 22:55:38      7s] @(#)CDS: RCDB 11.10
+[05/02 22:55:38      7s] --- Running on cadence (x86_64 w/Linux 2.6.32-696.el6.x86_64) (4cores*4cpus*Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz 6144KB) ---
+[05/02 22:55:38      7s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_22197_cadence_root_7Dh4cp.
+
+[05/02 22:55:38      7s] Change the soft stacksize limit to 0.2%RAM (15 mbytes). Set global soft_stack_size_limit to change the value.
+[05/02 22:55:38      8s] 
+[05/02 22:55:38      8s] **INFO:  MMMC transition support version v31-84 
+[05/02 22:55:38      8s] 
+[05/02 22:55:38      8s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[05/02 22:55:38      8s] <CMD> suppressMessage ENCEXT-2799
+[05/02 22:55:38      8s] <CMD> getVersion
+[05/02 22:55:39      8s] <CMD> getVersion
+[05/02 22:55:39      8s] [INFO] Loading fill procedures release ... 2017_02_14_15_15 for PVS build 15.23
+[05/02 22:55:39      8s] <CMD> win
+[05/02 22:56:21     10s] **INFO (INTERRUPT): One more Ctrl-C to exit Innovus ...
+[05/02 22:56:21     10s] Innovus terminated by user interrupt.
+[05/02 22:56:21     10s] 
+[05/02 22:56:21     10s] *** Memory Usage v#1 (Current mem = 555.918M, initial mem = 232.363M) ***
+[05/02 22:56:21     10s] *** Message Summary: 0 warning(s), 0 error(s)
+[05/02 22:56:21     10s] 
+[05/02 22:56:21     10s] --- Ending "Innovus" (totcpu=0:00:10.3, real=0:00:51.0, mem=555.9M) ---

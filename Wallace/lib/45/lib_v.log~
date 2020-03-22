@@ -1,0 +1,17 @@
+                          CONFORMAL (R)
+                   Version 13.10-s180 (30-Jan-2014) (64 bit executable)
+   Copyright (c) Cadence Design Systems, Inc., 1997-2014. All Rights Reserved
+
+
+This program is proprietary and confidential information belonging to
+Cadence Design Systems, Inc., and may be used and disclosed only as authorized
+in a license agreement controlling such use and disclosure.
+
+// Command: read library ./slow.lib -liberty
+// Parsing file ./slow.lib ...
+// Warning: (HRC1.4) Module/entity is empty (blackboxed) (occurrence:1)
+// Note: Read Liberty library successfully
+// Command: write library slow.v -verilog -replace
+// Note: Wrote VERILOG library successfully
+// Command: set gui on
+// Switching to GUI mode

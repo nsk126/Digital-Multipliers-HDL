@@ -1,0 +1,18 @@
+set_db lib_search_path /root/Desktop/Wallace/lib/90
+set_db library slow.lib
+set_db hdl_search_path /
+read_hdl Wallace.v
+elaborate
+read_sdc constraints_top.sdc
+synthesize -to_mapped -effort medium
+write_sdf -timescale ns -nonegchecks -recrem split -edges check_edge > delays.sdf
+
+write_hdl > Wallace_netlist.v
+write_sdc > Wallce_sdc.sdc
+
+
+gui_show
+report timing > Wallace_timing.rep
+report power > Wallace_power.rep
+report area > Wallace_cell.rep
+report messages > Wallace_message.rep

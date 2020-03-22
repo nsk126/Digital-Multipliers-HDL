@@ -1,0 +1,58 @@
+
+  =================
+   Message Summary
+  =================
+
+Num   Sev      Id                       Message Text                    
+------------------------------------------------------------------------
+  1   Info  DPOPT-5  Skipping datapath optimization.                    
+  1   Info  DPOPT-6  Pre-processed datapath logic.                      
+  1   Info  ELAB-1   Elaborating Design.                                
+  1   Info  ELAB-3   Done Elaborating Design.                           
+  1   Info  LBR-412  Created nominal operating condition.               
+                     The nominal operating condition represents either  
+                     the nominal PVT values if specified in the         
+                     library source, or the default PVT values (1.0,    
+                     1.0, 1.0).                                         
+  6  Error  SDC-202  Could not interpret SDC command.                   
+                     The 'read_sdc' command encountered a problem       
+                     while trying to evaluate an SDC command. This SDC  
+                     command will be added to the Tcl variable          
+                     $::dc::sdc_failed_commands.                        
+  1  Error  SDC-203  Option missing for SDC command.                    
+                     This SDC command requires the indicated options.   
+                     Check the SDC command and contact Cadence          
+                     customer support if you believe this option        
+                     combination should be supported.                   
+  8 Warning SDC-208  Could not find requested search value.             
+                     Use the 'vcd' and 'vls' commands to browse the     
+                     virtual directories to find the object because     
+                     the specified name and/or location does not exist. 
+  1 Warning SDC-209  One or more commands failed when these             
+                     constraints were applied.                          
+                     You can examine the failed commands or save them   
+                     to a file by querying the Tcl variable             
+                     $::dc::sdc_failed_commands.                        
+  1   Info  SYNTH-1  Synthesizing.                                      
+  1   Info  SYNTH-2  Done synthesizing.                                 
+  1   Info  SYNTH-4  Mapping.                                           
+  1   Info  SYNTH-5  Done mapping.                                      
+  1   Info  SYNTH-7  Incrementally optimizing.                          
+  1   Info  SYNTH-8  Done incrementally optimizing.                     
+  1 Warning TIM-11   Possible timing problems have been detected in     
+                     this design.                                       
+                     Use 'report timing -lint' for more information.    
+  1 Warning TUI-32   This attribute will be obsolete in a next major    
+                     release.                                           
+  1 Warning TUI-37   This command will be obsolete in a next major      
+                     release.                                           
+                     The synthesize command is obsolete. Use the        
+                     syn_gen, syn_map or syn_opt commands instead.      
+  5  Error  TUI-61   A required object parameter could not be found.    
+                     Check to make sure that the object exists and is   
+                     of the correct type.  The 'what_is' command can    
+                     be used to determine the type of an object.        
+  1 Warning WSDF-104 Default value for an option has changed in this    
+                     release.                                           
+                     Specify the option explicitly.                     
+

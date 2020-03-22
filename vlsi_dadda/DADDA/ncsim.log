@@ -1,0 +1,17 @@
+ncsim(64): 15.20-s031: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm Dadda_tb.a Dadda_tb.b Dadda_tb.op
+Created probe 1
+ncsim> run
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+ncsim: Memory Usage - 36.4M program + 160.3M data = 196.7M total (200.2M Peak)
+ncsim: CPU Usage - 23.3s system + 5.9s user = 29.2s total (1353.1s, 2.2% cpu)

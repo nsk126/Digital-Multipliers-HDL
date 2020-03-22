@@ -1,0 +1,84 @@
+#!/bin/csh
+setenv CDS_Netlisting_Mode "Analog"
+setenv QRC_ENABLE_EXTRACTION "1"
+setenv CDS_AUTO_64BIT ALL
+setenv CDS_AHDLCMI_ENABLE NO	
+setenv EDITOR gedit 
+
+setenv LM_LICENSE_FILE 5280@10.59.122.156
+
+setenv CDS_LIC_FILE $LM_LICENSE_FILE
+setenv LANG en_US
+
+###########################################################
+
+
+setenv LIBERATEHOME 	/cad/LIBERATE161
+#setenv LIBERATEHOME 	/cad/ALTOS121
+
+###########################################################
+#####################  CIC     ############################
+
+setenv CDSHOME	 	/cad/IC617
+setenv ASSURAHOME	/cad/ASSURA41
+setenv PVSHOME  	/cad/PVS152
+setenv QRC_HOME		/cad/EXT171
+setenv MMSIMHOME  	/cad/SPECTRE161
+
+###########################################################
+#####################  ASIC    ############################
+
+setenv IUSHOME  	/cad/INCISIVE152
+##setenv RCHOME  		/cad/RC142
+setenv RCHOME  		/cad/INNOVUS171
+setenv ETHOME 		/cad/ET151
+setenv LECHOME 		/cad/CONFRML171
+setenv ENCOUNTERHOME  	/cad/EDI142  
+setenv ETSHOME  	/cad/ETS131
+
+setenv GENUSHOME	/cad/GENUS172
+setenv MODUSHOME	/cad/MODUS161
+setenv INNOVUSHOME	/cad/INNOVUS171
+setenv SSVHOME		/cad/SSV162
+
+
+###########################################################
+#####################  PCB     ############################
+
+setenv SPBHOME 		/cad/SPB172
+
+###########################################################
+#####################  LIBRARIES  #########################
+
+setenv FOUNDRY 		/cad/FOUNDRY
+setenv ANALOG		/cad/FOUNDRY/analog
+setenv STDCELL		/cad/FOUNDRY/stdcell
+
+###########################################################
+
+setenv DIGITAL		/cad/FOUNDRY/digital
+setenv dig_45nm		$DIGITAL/45nm
+setenv dig_90nm		$DIGITAL/90nm
+setenv dig_180nm	$DIGITAL/180nm
+
+###########################################################
+#setenv OA_HOME 		/cad/EDI142/oa_v22.50.007/bin
+setenv CDS_INST_DIR 	$CDSHOME
+setenv CDSHOME 		$CDS_INST_DIR
+setenv AMSHOME 		$IUSHOME
+setenv LD_LIBRARY_PATH 	$CDS_INST_DIR/tools/lib:$CDS_INST_DIR/tools/dfII/lib
+setenv LD_LIBRARY_PATH 	$IUSHOME/tools/lib:$ETSHOME/tools/lib
+
+###########################################################
+
+set path = ($CDS_INST_DIR/bin $CDS_INST_DIR/tools/bin $CDS_INST_DIR/tools/dfII/bin $CDS_INST_DIR/share/bin $MMSIMHOME/tools/bin $MMSIMHOME/tools/dfII/bin  $IUSHOME/bin $IUSHOME/tools/bin $IUSHOME/tools/dfII/bin $IUSHOME/tools.lnx86/dfII/bin $IUSHOME/tools.lnx86/dfII/bin $IUSHOME/share/bin $ASSURAHOME/bin $ASSURAHOME/tools/bin $ASSURAHOME/tools/dfII/bin $ASSURAHOME/tools.lnx86/dfII/bin $ASSURAHOME/tools.lnx86/dfII/bin $ASSURAHOME/share/bin $PVSHOME/tools/assura/bin $PVSHOME/tools/bin $PVSHOME/tools/dfII/bin $QRC_HOME/tools/extraction/bin $QRC_HOME/tools/bin $QRC_HOME/tools/dfII/bin  $RCHOME/bin $RCHOME/share/bin $RCHOME/tools/dfII/bin $RCHOME/tools.lnx86/dfII/bin $RCHOME/tools/bin $RCHOME/tools.lnx86/bin $ENCOUNTERHOME/bin $ENCOUNTERHOME/tools/bin $ENCOUNTERHOME/tools/dfII/bin $ENCOUNTERHOME/share/bin $ETSHOME/bin $ETSHOME/tools/bin $ETSHOME/tools/dfII/bin $ETSHOME/tools.lnx86/dfII/bin $ETSHOME/tools.lnx86/dfII/bin $ETSHOME/share/bin $SPBHOME/bin $SPBHOME/tools/pcb/bin $SPBHOME/tools/dfII/bin $SPBHOME/tools.lnx86/dfII/bin $SPBHOME/tools.lnx86/dfII/bin $SPBHOME/tools.lnx86/pcb/bin $LECHOME/bin $LECHOME/tools/bin $LECHOME/tools/dfII/bin $LECHOME/tools.lnx86/dfII/bin $LECHOME/tools.lnx86/dfII/bin $LECHOME/share/bin  $ETHOME/bin $ETHOME/tools/bin $ETHOME/tools/dfII/bin $ETHOME/tools.lnx86/bin $ETHOME/tools.lnx86/dfII/bin $LIBERATEHOME/tools/bin $LIBERATEHOME/tools/dfII/bin $LIBERATEHOME/bin $LIBERATEHOME/tools.lnx86/dfII/bin $LIBERATEHOME/tools.lnx86/dfII/bin  $ETHOME/bin $ETHOME/tools/bin   $ETHOME/tools/dfII/bin $ETHOME/tools.lnx86/bin $ETHOME/tools.lnx86/dfII/bin $GENUSHOME/bin $GENUSHOME/share/bin $GENUSHOME/tools/dfII/bin $GENUSHOME/tools.lnx86/dfII/bin $GENUSHOME/tools/bin $GENUSHOME/tools.lnx86/bin $INNOVUSHOME/bin $INNOVUSHOME/tools/bin $INNOVUSHOME/tools/dfII/bin $INNOVUSHOME/share/bin $SSVHOME/bin $SSVHOME/tools/bin $SSVHOME/tools/dfII/bin $SSVHOME/tools.lnx86/dfII/bin $SSVHOME/tools.lnx86/dfII/bin $SSVHOME/share/bin $MODUSHOME/bin   $MODUSHOME/tools/bin $MODUSHOME/tools/dfII/bin $MODUSHOME/tools.lnx86/bin $MODUSHOME/tools.lnx86/dfII/bin $path  )
+
+##
+
+###########################################################
+
+clear
+echo ""
+echo "Welcome to Cadence Tools Suite"
+echo ""
+

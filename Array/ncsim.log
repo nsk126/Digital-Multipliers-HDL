@@ -1,0 +1,273 @@
+ncsim(64): 15.20-s031: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> database -open waves -into waves.shm -default
+Created default SHM database waves
+ncsim> probe -create -shm Array_tb.a Array_tb.b Array_tb.i Array_tb.j Array_tb.op
+Created probe 1
+ncsim> run
+ 0 x  0 = op =   0
+ 0 x  1 = op =   0
+ 0 x  2 = op =   0
+ 0 x  3 = op =   0
+ 0 x  4 = op =   0
+ 0 x  5 = op =   0
+ 0 x  6 = op =   0
+ 0 x  7 = op =   0
+ 0 x  8 = op =   0
+ 0 x  9 = op =   0
+ 0 x 10 = op =   0
+ 0 x 11 = op =   0
+ 0 x 12 = op =   0
+ 0 x 13 = op =   0
+ 0 x 14 = op =   0
+ 0 x 15 = op =   0
+ 1 x  0 = op =   0
+ 1 x  1 = op =   1
+ 1 x  2 = op =   2
+ 1 x  3 = op =   3
+ 1 x  4 = op =   4
+ 1 x  5 = op =   5
+ 1 x  6 = op =   6
+ 1 x  7 = op =   7
+ 1 x  8 = op =   8
+ 1 x  9 = op =   9
+ 1 x 10 = op =  10
+ 1 x 11 = op =  11
+ 1 x 12 = op =  12
+ 1 x 13 = op =  13
+ 1 x 14 = op =  14
+ 1 x 15 = op =  15
+ 2 x  0 = op =   0
+ 2 x  1 = op =   2
+ 2 x  2 = op =   4
+ 2 x  3 = op =   6
+ 2 x  4 = op =   8
+ 2 x  5 = op =  10
+ 2 x  6 = op =  12
+ 2 x  7 = op =  14
+ 2 x  8 = op =  16
+ 2 x  9 = op =  18
+ 2 x 10 = op =  20
+ 2 x 11 = op =  22
+ 2 x 12 = op =  24
+ 2 x 13 = op =  26
+ 2 x 14 = op =  28
+ 2 x 15 = op =  30
+ 3 x  0 = op =   0
+ 3 x  1 = op =   3
+ 3 x  2 = op =   6
+ 3 x  3 = op =   9
+ 3 x  4 = op =  12
+ 3 x  5 = op =  15
+ 3 x  6 = op =  18
+ 3 x  7 = op =  21
+ 3 x  8 = op =  24
+ 3 x  9 = op =  27
+ 3 x 10 = op =  30
+ 3 x 11 = op =  33
+ 3 x 12 = op =  36
+ 3 x 13 = op =  39
+ 3 x 14 = op =  42
+ 3 x 15 = op =  45
+ 4 x  0 = op =   0
+ 4 x  1 = op =   4
+ 4 x  2 = op =   8
+ 4 x  3 = op =  12
+ 4 x  4 = op =  16
+ 4 x  5 = op =  20
+ 4 x  6 = op =  24
+ 4 x  7 = op =  28
+ 4 x  8 = op =  32
+ 4 x  9 = op =  36
+ 4 x 10 = op =  40
+ 4 x 11 = op =  44
+ 4 x 12 = op =  48
+ 4 x 13 = op =  52
+ 4 x 14 = op =  56
+ 4 x 15 = op =  60
+ 5 x  0 = op =   0
+ 5 x  1 = op =   5
+ 5 x  2 = op =  10
+ 5 x  3 = op =  15
+ 5 x  4 = op =  20
+ 5 x  5 = op =  25
+ 5 x  6 = op =  30
+ 5 x  7 = op =  35
+ 5 x  8 = op =  40
+ 5 x  9 = op =  45
+ 5 x 10 = op =  50
+ 5 x 11 = op =  55
+ 5 x 12 = op =  60
+ 5 x 13 = op =  65
+ 5 x 14 = op =  70
+ 5 x 15 = op =  75
+ 6 x  0 = op =   0
+ 6 x  1 = op =   6
+ 6 x  2 = op =  12
+ 6 x  3 = op =  18
+ 6 x  4 = op =  24
+ 6 x  5 = op =  30
+ 6 x  6 = op =  36
+ 6 x  7 = op =  42
+ 6 x  8 = op =  48
+ 6 x  9 = op =  54
+ 6 x 10 = op =  60
+ 6 x 11 = op =  66
+ 6 x 12 = op =  72
+ 6 x 13 = op =  78
+ 6 x 14 = op =  84
+ 6 x 15 = op =  90
+ 7 x  0 = op =   0
+ 7 x  1 = op =   7
+ 7 x  2 = op =  14
+ 7 x  3 = op =  21
+ 7 x  4 = op =  28
+ 7 x  5 = op =  35
+ 7 x  6 = op =  42
+ 7 x  7 = op =  49
+ 7 x  8 = op =  56
+ 7 x  9 = op =  63
+ 7 x 10 = op =  70
+ 7 x 11 = op =  77
+ 7 x 12 = op =  84
+ 7 x 13 = op =  91
+ 7 x 14 = op =  98
+ 7 x 15 = op = 105
+ 8 x  0 = op =   0
+ 8 x  1 = op =   8
+ 8 x  2 = op =  16
+ 8 x  3 = op =  24
+ 8 x  4 = op =  32
+ 8 x  5 = op =  40
+ 8 x  6 = op =  48
+ 8 x  7 = op =  56
+ 8 x  8 = op =  64
+ 8 x  9 = op =  72
+ 8 x 10 = op =  80
+ 8 x 11 = op =  88
+ 8 x 12 = op =  96
+ 8 x 13 = op = 104
+ 8 x 14 = op = 112
+ 8 x 15 = op = 120
+ 9 x  0 = op =   0
+ 9 x  1 = op =   9
+ 9 x  2 = op =  18
+ 9 x  3 = op =  27
+ 9 x  4 = op =  36
+ 9 x  5 = op =  45
+ 9 x  6 = op =  54
+ 9 x  7 = op =  63
+ 9 x  8 = op =  72
+ 9 x  9 = op =  81
+ 9 x 10 = op =  90
+ 9 x 11 = op =  99
+ 9 x 12 = op = 108
+ 9 x 13 = op = 117
+ 9 x 14 = op = 126
+ 9 x 15 = op = 135
+10 x  0 = op =   0
+10 x  1 = op =  10
+10 x  2 = op =  20
+10 x  3 = op =  30
+10 x  4 = op =  40
+10 x  5 = op =  50
+10 x  6 = op =  60
+10 x  7 = op =  70
+10 x  8 = op =  80
+10 x  9 = op =  90
+10 x 10 = op = 100
+10 x 11 = op = 110
+10 x 12 = op = 120
+10 x 13 = op = 130
+10 x 14 = op = 140
+10 x 15 = op = 150
+11 x  0 = op =   0
+11 x  1 = op =  11
+11 x  2 = op =  22
+11 x  3 = op =  33
+11 x  4 = op =  44
+11 x  5 = op =  55
+11 x  6 = op =  66
+11 x  7 = op =  77
+11 x  8 = op =  88
+11 x  9 = op =  99
+11 x 10 = op = 110
+11 x 11 = op = 121
+11 x 12 = op = 132
+11 x 13 = op = 143
+11 x 14 = op = 154
+11 x 15 = op = 165
+12 x  0 = op =   0
+12 x  1 = op =  12
+12 x  2 = op =  24
+12 x  3 = op =  36
+12 x  4 = op =  48
+12 x  5 = op =  60
+12 x  6 = op =  72
+12 x  7 = op =  84
+12 x  8 = op =  96
+12 x  9 = op = 108
+12 x 10 = op = 120
+12 x 11 = op = 132
+12 x 12 = op = 144
+12 x 13 = op = 156
+12 x 14 = op = 168
+12 x 15 = op = 180
+13 x  0 = op =   0
+13 x  1 = op =  13
+13 x  2 = op =  26
+13 x  3 = op =  39
+13 x  4 = op =  52
+13 x  5 = op =  65
+13 x  6 = op =  78
+13 x  7 = op =  91
+13 x  8 = op = 104
+13 x  9 = op = 117
+13 x 10 = op = 130
+13 x 11 = op = 143
+13 x 12 = op = 156
+13 x 13 = op = 169
+13 x 14 = op = 182
+13 x 15 = op = 195
+14 x  0 = op =   0
+14 x  1 = op =  14
+14 x  2 = op =  28
+14 x  3 = op =  42
+14 x  4 = op =  56
+14 x  5 = op =  70
+14 x  6 = op =  84
+14 x  7 = op =  98
+14 x  8 = op = 112
+14 x  9 = op = 126
+14 x 10 = op = 140
+14 x 11 = op = 154
+14 x 12 = op = 168
+14 x 13 = op = 182
+14 x 14 = op = 196
+14 x 15 = op = 210
+15 x  0 = op =   0
+15 x  1 = op =  15
+15 x  2 = op =  30
+15 x  3 = op =  45
+15 x  4 = op =  60
+15 x  5 = op =  75
+15 x  6 = op =  90
+15 x  7 = op = 105
+15 x  8 = op = 120
+15 x  9 = op = 135
+15 x 10 = op = 150
+15 x 11 = op = 165
+15 x 12 = op = 180
+15 x 13 = op = 195
+15 x 14 = op = 210
+15 x 15 = op = 225
+ncsim: *W,RNQUIE: Simulation is complete.
+ncsim> ^C
+ncsim> exit
+...Regained control from SimVision
+-------------------------------------
+ncsim: Memory Usage - 36.4M program + 160.3M data = 196.7M total (200.3M Peak)
+ncsim: CPU Usage - 0.6s system + 0.1s user = 0.8s total (55.9s, 1.4% cpu)

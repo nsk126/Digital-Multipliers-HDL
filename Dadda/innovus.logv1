@@ -1,0 +1,130 @@
+[05/02 20:54:20      0s] 
+[05/02 20:54:20      0s] Cadence Innovus(TM) Implementation System.
+[05/02 20:54:20      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[05/02 20:54:20      0s] 
+[05/02 20:54:20      0s] Version:	v17.13-s098_1, built Thu Feb 8 11:26:22 PST 2018
+[05/02 20:54:20      0s] Options:	
+[05/02 20:54:20      0s] Date:		Thu May  2 20:54:20 2019
+[05/02 20:54:20      0s] Host:		cadence (x86_64 w/Linux 2.6.32-696.el6.x86_64) (4cores*4cpus*Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz 6144KB)
+[05/02 20:54:20      0s] OS:		Red Hat Enterprise Linux Server release 6.9 (Santiago)
+[05/02 20:54:20      0s] 
+[05/02 20:54:20      0s] License:
+[05/02 20:54:20      0s] 		invs	Innovus Implementation System	17.1	Denied
+[05/02 20:54:20      0s] 		invsb	Innovus Implementation System Basic	17.1	Denied
+[05/02 20:54:20      0s] 		fexl	First Encounter XL	17.1	Denied
+[05/02 20:54:20      0s] 		vdixl	Virtuoso Digital Implementation XL	17.1	checkout succeeded
+[05/02 20:54:20      0s] 		Maximum number of instances allowed (1 x 50000).
+[05/02 20:54:28      7s] @(#)CDS: Innovus v17.13-s098_1 (64bit) 02/08/2018 11:26 (Linux 2.6.18-194.el5)
+[05/02 20:54:28      7s] @(#)CDS: NanoRoute 17.13-s098_1 NR180117-1602/17_13-UB (database version 2.30, 414.7.1) {superthreading v1.44}
+[05/02 20:54:28      7s] @(#)CDS: AAE 17.13-s036 (64bit) 02/08/2018 (Linux 2.6.18-194.el5)
+[05/02 20:54:28      7s] @(#)CDS: CTE 17.13-s031_1 () Feb  1 2018 09:16:44 ( )
+[05/02 20:54:28      7s] @(#)CDS: SYNTECH 17.13-s011_1 () Jan 14 2018 01:24:42 ( )
+[05/02 20:54:28      7s] @(#)CDS: CPE v17.13-s062
+[05/02 20:54:28      7s] @(#)CDS: IQRC/TQRC 16.1.1-s220 (64bit) Fri Aug  4 09:53:48 PDT 2017 (Linux 2.6.18-194.el5)
+[05/02 20:54:28      7s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[05/02 20:54:28      7s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[05/02 20:54:28      7s] @(#)CDS: RCDB 11.10
+[05/02 20:54:28      7s] --- Running on cadence (x86_64 w/Linux 2.6.32-696.el6.x86_64) (4cores*4cpus*Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz 6144KB) ---
+[05/02 20:54:28      7s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_6654_cadence_root_z9kbpo.
+
+[05/02 20:54:28      7s] Change the soft stacksize limit to 0.2%RAM (15 mbytes). Set global soft_stack_size_limit to change the value.
+[05/02 20:54:28      8s] 
+[05/02 20:54:28      8s] **INFO:  MMMC transition support version v31-84 
+[05/02 20:54:28      8s] 
+[05/02 20:54:28      8s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[05/02 20:54:28      8s] <CMD> suppressMessage ENCEXT-2799
+[05/02 20:54:28      8s] <CMD> getVersion
+[05/02 20:54:28      8s] <CMD> getVersion
+[05/02 20:54:28      8s] [INFO] Loading fill procedures release ... 2017_02_14_15_15 for PVS build 15.23
+[05/02 20:54:28      8s] <CMD> win
+[05/02 20:54:34      8s] <CMD> set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+[05/02 20:54:34      8s] <CMD> set conf_qxconf_file NULL
+[05/02 20:54:34      8s] <CMD> set conf_qxlib_file NULL
+[05/02 20:54:34      8s] <CMD> set defHierChar /
+[05/02 20:54:34      8s] <CMD> set init_design_settop 0
+[05/02 20:54:34      8s] <CMD> set init_gnd_net VSS
+[05/02 20:54:34      8s] <CMD> set init_lef_file {lef/gsclib090_translated.lef lef/gsclib090_translated_ref.lef}
+[05/02 20:54:34      8s] <CMD> set init_mmmc_file Default.view
+[05/02 20:54:34      8s] <CMD> set init_pwr_net VDD
+[05/02 20:54:34      8s] <CMD> set init_verilog Dadda_netlist.v
+[05/02 20:54:34      8s] <CMD> set pegDefaultResScaleFactor 1.000000
+[05/02 20:54:34      8s] <CMD> set pegDetailResScaleFactor 1.000000
+[05/02 20:54:36      9s] <CMD> init_design
+[05/02 20:54:36      9s] #% Begin Load MMMC data ... (date=05/02 20:54:36, mem=473.5M)
+[05/02 20:54:36      9s] #% End Load MMMC data ... (date=05/02 20:54:36, total cpu=0:00:00.0, real=0:00:00.0, peak res=473.5M, current mem=469.2M)
+[05/02 20:54:36      9s] **ERROR: (IMPSYT-16038):	The specified file 'lef/gsclib090_translated.lef' could not be found. Check your file system, correct the file name.
+[05/02 20:54:36      9s] **ERROR: (IMPSYT-16038):	The specified file 'lef/gsclib090_translated_ref.lef' could not be found. Check your file system, correct the file name.
+[05/02 20:54:37      9s] **ERROR: **ERROR: (IMPIMEX-7327):	The file 'lef/gsclib090_translated.lef lef/gsclib090_translated_ref.lef' from the init_lef_file variable does not exist or does not have read permissions, so it can't be loaded. If the missing file has LEF data needed by the netlist, a fatal error may occur later when reading the netlist. You should correct the filename to avoid this warning message. 
+[05/02 20:54:37      9s] Note, the setImportMode -treatUndefinedCellAsBbox option controls if an undefined modules is treated as a black-boxes, and setCheckMode -tapeOut controls if an undefined module (not converted to a blackbox) is treated as a fatal error or empty module when reading the netlist.
+[05/02 20:54:37      9s] 
+[05/02 20:55:14     12s] <CMD> set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+[05/02 20:55:14     12s] <CMD> set conf_qxconf_file NULL
+[05/02 20:55:14     12s] <CMD> set conf_qxlib_file NULL
+[05/02 20:55:14     12s] <CMD> set defHierChar /
+[05/02 20:55:14     12s] <CMD> set init_design_settop 0
+[05/02 20:55:14     12s] <CMD> set init_gnd_net VSS
+[05/02 20:55:14     12s] <CMD> set init_lef_file {lef/gsclib090_translated.lef lef/gsclib090_translated_ref.lef}
+[05/02 20:55:14     12s] <CMD> set init_mmmc_file Default.view
+[05/02 20:55:14     12s] <CMD> set init_pwr_net VDD
+[05/02 20:55:14     12s] <CMD> set init_verilog Dadda_netlist.v
+[05/02 20:55:14     12s] <CMD> set pegDefaultResScaleFactor 1.000000
+[05/02 20:55:14     12s] <CMD> set pegDetailResScaleFactor 1.000000
+[05/02 20:55:37     15s] <CMD> init_design
+[05/02 20:55:37     15s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[05/02 20:55:37     15s] #% Begin Load MMMC data ... (date=05/02 20:55:37, mem=485.9M)
+[05/02 20:55:37     15s] The existing analysis_view 'Worst' has been replaced with new attributes.
+[05/02 20:55:37     15s] The existing analysis_view 'best' has been replaced with new attributes.
+[05/02 20:55:37     15s] INFO: New setup and hold views overwrite old settings during design initialization
+[05/02 20:55:37     15s] #% End Load MMMC data ... (date=05/02 20:55:37, total cpu=0:00:00.0, real=0:00:00.0, peak res=485.9M, current mem=485.1M)
+[05/02 20:55:37     15s] **ERROR: (IMPSYT-16038):	The specified file 'lef/gsclib090_translated.lef' could not be found. Check your file system, correct the file name.
+[05/02 20:55:37     15s] **ERROR: (IMPSYT-16038):	The specified file 'lef/gsclib090_translated_ref.lef' could not be found. Check your file system, correct the file name.
+[05/02 20:55:40     16s] **ERROR: **ERROR: (IMPIMEX-7327):	The file 'lef/gsclib090_translated.lef lef/gsclib090_translated_ref.lef' from the init_lef_file variable does not exist or does not have read permissions, so it can't be loaded. If the missing file has LEF data needed by the netlist, a fatal error may occur later when reading the netlist. You should correct the filename to avoid this warning message. 
+[05/02 20:55:40     16s] Note, the setImportMode -treatUndefinedCellAsBbox option controls if an undefined modules is treated as a black-boxes, and setCheckMode -tapeOut controls if an undefined module (not converted to a blackbox) is treated as a fatal error or empty module when reading the netlist.
+[05/02 20:55:40     16s] 
+[05/02 20:55:47     17s] <CMD> init_design
+[05/02 20:55:47     17s] report_message: '-start_cmd/-end_cmd' can not be nested. Interior calls do nothing. Ignore.
+[05/02 20:55:47     17s] #% Begin Load MMMC data ... (date=05/02 20:55:47, mem=486.1M)
+[05/02 20:55:47     17s] The existing analysis_view 'Worst' has been replaced with new attributes.
+[05/02 20:55:47     17s] The existing analysis_view 'best' has been replaced with new attributes.
+[05/02 20:55:47     17s] INFO: New setup and hold views overwrite old settings during design initialization
+[05/02 20:55:47     17s] #% End Load MMMC data ... (date=05/02 20:55:47, total cpu=0:00:00.0, real=0:00:00.0, peak res=486.1M, current mem=485.7M)
+[05/02 20:55:47     17s] **ERROR: (IMPSYT-16038):	The specified file 'lef/gsclib090_translated.lef' could not be found. Check your file system, correct the file name.
+[05/02 20:55:47     17s] **ERROR: (IMPSYT-16038):	The specified file 'lef/gsclib090_translated_ref.lef' could not be found. Check your file system, correct the file name.
+[05/02 20:55:48     17s] **ERROR: **ERROR: (IMPIMEX-7327):	The file 'lef/gsclib090_translated.lef lef/gsclib090_translated_ref.lef' from the init_lef_file variable does not exist or does not have read permissions, so it can't be loaded. If the missing file has LEF data needed by the netlist, a fatal error may occur later when reading the netlist. You should correct the filename to avoid this warning message. 
+[05/02 20:55:48     17s] Note, the setImportMode -treatUndefinedCellAsBbox option controls if an undefined modules is treated as a black-boxes, and setCheckMode -tapeOut controls if an undefined module (not converted to a blackbox) is treated as a fatal error or empty module when reading the netlist.
+[05/02 20:55:48     17s] 
+[05/02 20:57:04     26s] <CMD> set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+[05/02 20:57:04     26s] <CMD> set conf_qxconf_file NULL
+[05/02 20:57:04     26s] <CMD> set conf_qxlib_file NULL
+[05/02 20:57:04     26s] <CMD> set defHierChar /
+[05/02 20:57:04     26s] <CMD> set init_design_settop 0
+[05/02 20:57:04     26s] <CMD> set init_gnd_net VSS
+[05/02 20:57:04     26s] <CMD> set init_lef_file {lef/gsclib090_translated.lef lef/gsclib090_translated_ref.lef}
+[05/02 20:57:04     26s] <CMD> set init_mmmc_file Default.view
+[05/02 20:57:04     26s] <CMD> set init_pwr_net VDD
+[05/02 20:57:04     26s] <CMD> set init_verilog Dadda_netlist.v
+[05/02 20:57:04     26s] <CMD> set pegDefaultResScaleFactor 1.000000
+[05/02 20:57:04     26s] <CMD> set pegDetailResScaleFactor 1.000000
+[05/02 20:57:15     27s] <CMD> init_design
+[05/02 20:57:15     27s] report_message: '-start_cmd/-end_cmd' can not be nested. Retire previous calls.
+[05/02 20:57:15     27s] #% Begin Load MMMC data ... (date=05/02 20:57:15, mem=490.6M)
+[05/02 20:57:15     27s] The existing analysis_view 'Worst' has been replaced with new attributes.
+[05/02 20:57:15     27s] The existing analysis_view 'best' has been replaced with new attributes.
+[05/02 20:57:15     27s] INFO: New setup and hold views overwrite old settings during design initialization
+[05/02 20:57:15     27s] #% End Load MMMC data ... (date=05/02 20:57:15, total cpu=0:00:00.0, real=0:00:00.0, peak res=490.6M, current mem=490.6M)
+[05/02 20:57:15     27s] **ERROR: (IMPSYT-16038):	The specified file 'lef/gsclib090_translated.lef' could not be found. Check your file system, correct the file name.
+[05/02 20:57:15     27s] **ERROR: (IMPSYT-16038):	The specified file 'lef/gsclib090_translated_ref.lef' could not be found. Check your file system, correct the file name.
+[05/02 20:57:15     27s] **ERROR: (IMPIMEX-7327):	The file 'lef/gsclib090_translated.lef lef/gsclib090_translated_ref.lef' from the init_lef_file variable does not exist or does not have read permissions, so it can't be loaded. If the missing file has LEF data needed by the netlist, a fatal error may occur later when reading the netlist. You should correct the filename to avoid this warning message. 
+Note, the setImportMode -treatUndefinedCellAsBbox option controls if an undefined modules is treated as a black-boxes, and setCheckMode -tapeOut controls if an undefined module (not converted to a blackbox) is treated as a fatal error or empty module when reading the netlist.
+
+[05/02 20:57:23     28s] 
+[05/02 20:57:23     28s] *** Memory Usage v#1 (Current mem = 588.465M, initial mem = 232.363M) ***
+[05/02 20:57:23     28s] 
+[05/02 20:57:23     28s] *** Summary of all messages that are not suppressed in this session:
+[05/02 20:57:23     28s] Severity  ID               Count  Summary                                  
+[05/02 20:57:23     28s] ERROR     IMPSYT-6729          4  %s                                       
+[05/02 20:57:23     28s] ERROR     IMPSYT-16038         8  The specified file '%s' could not be fou...
+[05/02 20:57:23     28s] ERROR     IMPIMEX-7327         4  The file '%s' from the init_lef_file var...
+[05/02 20:57:23     28s] *** Message Summary: 0 warning(s), 16 error(s)
+[05/02 20:57:23     28s] 
+[05/02 20:57:23     28s] --- Ending "Innovus" (totcpu=0:00:28.3, real=0:03:03, mem=588.5M) ---

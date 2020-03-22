@@ -1,0 +1,33 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v17.13-s098_1, built Thu Feb 8 11:26:22 PST 2018
+Options:	
+Date:		Thu May  2 22:55:30 2019
+Host:		cadence (x86_64 w/Linux 2.6.32-696.el6.x86_64) (4cores*4cpus*Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz 6144KB)
+OS:		Red Hat Enterprise Linux Server release 6.9 (Santiago)
+
+License:
+		invs	Innovus Implementation System	17.1	Denied
+		invsb	Innovus Implementation System Basic	17.1	Denied
+		fexl	First Encounter XL	17.1	Denied
+		vdixl	Virtuoso Digital Implementation XL	17.1	checkout succeeded
+		Maximum number of instances allowed (1 x 50000).
+Change the soft stacksize limit to 0.2%RAM (15 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> getVersion
+<CMD> getVersion
+[INFO] Loading fill procedures release ... 2017_02_14_15_15 for PVS build 15.23
+<CMD> win
+**INFO (INTERRUPT): One more Ctrl-C to exit Innovus ...
+Innovus terminated by user interrupt.
+
+*** Memory Usage v#1 (Current mem = 555.918M, initial mem = 232.363M) ***
+*** Message Summary: 0 warning(s), 0 error(s)
+
+--- Ending "Innovus" (totcpu=0:00:10.3, real=0:00:51.0, mem=555.9M) ---

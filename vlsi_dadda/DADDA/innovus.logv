@@ -1,0 +1,60 @@
+[05/02 22:28:30      0s] 
+[05/02 22:28:30      0s] Cadence Innovus(TM) Implementation System.
+[05/02 22:28:30      0s] Copyright 2017 Cadence Design Systems, Inc. All rights reserved worldwide.
+[05/02 22:28:30      0s] 
+[05/02 22:28:30      0s] Version:	v17.13-s098_1, built Thu Feb 8 11:26:22 PST 2018
+[05/02 22:28:30      0s] Options:	
+[05/02 22:28:30      0s] Date:		Thu May  2 22:28:30 2019
+[05/02 22:28:30      0s] Host:		cadence (x86_64 w/Linux 2.6.32-696.el6.x86_64) (4cores*4cpus*Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz 6144KB)
+[05/02 22:28:30      0s] OS:		Red Hat Enterprise Linux Server release 6.9 (Santiago)
+[05/02 22:28:30      0s] 
+[05/02 22:28:30      0s] License:
+[05/02 22:28:30      0s] 		invs	Innovus Implementation System	17.1	Denied
+[05/02 22:28:31      0s] 		invsb	Innovus Implementation System Basic	17.1	Denied
+[05/02 22:28:31      0s] 		fexl	First Encounter XL	17.1	Denied
+[05/02 22:28:31      0s] 		vdixl	Virtuoso Digital Implementation XL	17.1	checkout succeeded
+[05/02 22:28:31      0s] 		Maximum number of instances allowed (1 x 50000).
+[05/02 22:28:47      8s] @(#)CDS: Innovus v17.13-s098_1 (64bit) 02/08/2018 11:26 (Linux 2.6.18-194.el5)
+[05/02 22:28:47      8s] @(#)CDS: NanoRoute 17.13-s098_1 NR180117-1602/17_13-UB (database version 2.30, 414.7.1) {superthreading v1.44}
+[05/02 22:28:47      8s] @(#)CDS: AAE 17.13-s036 (64bit) 02/08/2018 (Linux 2.6.18-194.el5)
+[05/02 22:28:47      8s] @(#)CDS: CTE 17.13-s031_1 () Feb  1 2018 09:16:44 ( )
+[05/02 22:28:47      8s] @(#)CDS: SYNTECH 17.13-s011_1 () Jan 14 2018 01:24:42 ( )
+[05/02 22:28:47      8s] @(#)CDS: CPE v17.13-s062
+[05/02 22:28:47      8s] @(#)CDS: IQRC/TQRC 16.1.1-s220 (64bit) Fri Aug  4 09:53:48 PDT 2017 (Linux 2.6.18-194.el5)
+[05/02 22:28:47      8s] @(#)CDS: OA 22.50-p063 Fri Feb  3 19:45:13 2017
+[05/02 22:28:47      8s] @(#)CDS: SGN 10.10-p124 (19-Aug-2014) (64 bit executable)
+[05/02 22:28:47      8s] @(#)CDS: RCDB 11.10
+[05/02 22:28:47      8s] --- Running on cadence (x86_64 w/Linux 2.6.32-696.el6.x86_64) (4cores*4cpus*Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz 6144KB) ---
+[05/02 22:28:47      8s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_17528_cadence_root_ZH7oPb.
+
+[05/02 22:28:47      8s] Change the soft stacksize limit to 0.2%RAM (15 mbytes). Set global soft_stack_size_limit to change the value.
+[05/02 22:28:48      8s] 
+[05/02 22:28:48      8s] **INFO:  MMMC transition support version v31-84 
+[05/02 22:28:48      8s] 
+[05/02 22:28:48      8s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[05/02 22:28:48      8s] <CMD> suppressMessage ENCEXT-2799
+[05/02 22:28:48      8s] <CMD> getVersion
+[05/02 22:28:49      8s] <CMD> getVersion
+[05/02 22:28:49      8s] [INFO] Loading fill procedures release ... 2017_02_14_15_15 for PVS build 15.23
+[05/02 22:28:49      8s] <CMD> win
+[05/02 22:29:31     12s] <CMD> set ::TimeLib::tsgMarkCellLatchConstructFlag 1
+[05/02 22:29:31     12s] <CMD> set conf_qxconf_file NULL
+[05/02 22:29:31     12s] <CMD> set conf_qxlib_file NULL
+[05/02 22:29:31     12s] <CMD> set defHierChar /
+[05/02 22:29:31     12s] <CMD> set init_design_settop 0
+[05/02 22:29:31     12s] <CMD> set init_gnd_net VSS
+[05/02 22:29:31     12s] <CMD> set init_lef_file {lef/gsclib090_translated.lef lef/gsclib090_translated_ref.lef}
+[05/02 22:29:31     12s] <CMD> set init_mmmc_file Default.view
+[05/02 22:29:31     12s] <CMD> set init_pwr_net VDD
+[05/02 22:29:31     12s] <CMD> set init_verilog Dadda_netlist.v
+[05/02 22:29:31     12s] <CMD> set pegDefaultResScaleFactor 1.000000
+[05/02 22:29:31     12s] <CMD> set pegDetailResScaleFactor 1.000000
+[05/02 22:29:37     12s] <CMD> init_design
+[05/02 22:29:37     12s] #% Begin Load MMMC data ... (date=05/02 22:29:37, mem=460.9M)
+[05/02 22:29:37     12s] #% End Load MMMC data ... (date=05/02 22:29:37, total cpu=0:00:00.0, real=0:00:00.0, peak res=461.1M, current mem=461.1M)
+[05/02 22:29:37     12s] **ERROR: (IMPSYT-16038):	The specified file 'lef/gsclib090_translated.lef' could not be found. Check your file system, correct the file name.
+[05/02 22:29:37     12s] **ERROR: (IMPSYT-16038):	The specified file 'lef/gsclib090_translated_ref.lef' could not be found. Check your file system, correct the file name.
+[05/02 22:29:37     12s] **ERROR: (IMPIMEX-7327):	The file 'lef/gsclib090_translated.lef lef/gsclib090_translated_ref.lef' from the init_lef_file variable does not exist or does not have read permissions, so it can't be loaded. If the missing file has LEF data needed by the netlist, a fatal error may occur later when reading the netlist. You should correct the filename to avoid this warning message. 
+Note, the setImportMode -treatUndefinedCellAsBbox option controls if an undefined modules is treated as a black-boxes, and setCheckMode -tapeOut controls if an undefined module (not converted to a blackbox) is treated as a fatal error or empty module when reading the netlist.
+
+[05/02 22:37:25     48s] <CMD> win off
